@@ -11,7 +11,7 @@ using System.Web;
 
 namespace CrmChatBot.LUIS
 {
-    [LuisModel("a7863a5b-5f40-4f6f-ba24-3ba473abab2d", "50e1cd388322452bbb334e23f9a4df22")]
+    [LuisModel("LuisAppId", "LUIS Subscription Key")]
     [Serializable]
     public class CarInquiryLuisDialog : LuisDialog<object>
     {
