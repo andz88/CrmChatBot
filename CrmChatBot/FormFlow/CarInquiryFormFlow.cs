@@ -9,7 +9,6 @@ using System.Web;
 
 namespace CrmChatBot.FormFlow
 {
-    //public enum OperationOptions { TestDrive, BrochureRequest }
     public enum CarMakeOptions { Unknown, Honda, Toyota };
 
     public enum CarModelOptions { Unknown, Jazz, City, CRV, Accord, HRV, Yaris, Corolla, Camry };
@@ -17,7 +16,6 @@ namespace CrmChatBot.FormFlow
     [Serializable]
     public class CarInquiryFormFlow
     {
-        //public OperationOptions Operation;
         public CarMakeOptions CarMake;
         public CarModelOptions CarModel;
         public string PreferredTime;
